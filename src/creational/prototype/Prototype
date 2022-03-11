@@ -1,0 +1,19 @@
+Prototype
+=============================================
+
+goal:
+determine the type of created objects using an instance - a prototype and create new objects by copying this prototype
+
+=============================================
+
+What is used for:
+to create copies of a given object
+
+=============================================
+
+Usage example:
+- classes whose instances need to be created are determined at runtime of the program
+- to avoid building class hierarchies, factories or parallel class hierarchies
+- class instances can be in one of the few possible states
+
+=============================================

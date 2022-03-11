@@ -7,7 +7,7 @@ public class Director {
         this.builder = builder;
     }
 
-    WebSite buildWebSite(){
+    WebSite buildWebSite() {
         builder.createWebSite();
         builder.buildName();
         builder.buildCms();

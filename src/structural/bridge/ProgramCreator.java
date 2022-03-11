@@ -2,18 +2,14 @@ package structural.bridge;
 
 public class ProgramCreator {
     public static void main(String[] args) {
-        Program [] programs = {
+        Program[] programs = {
                 new BankSystem(new JavaDev()),
                 new StockExchange(new CppDev())
         };
 
-        for(Program program : programs){
+        for (Program program : programs) {
             program.developProgram();
         }
-
-
-
-
 
 
     }

@@ -1,0 +1,21 @@
+Bridge
+=============================================
+goal:
+decouple the abstraction from its implementation so that we can change independently
+and then and
+
+=============================================
+
+What is used for:
+to get inheritance without losing flexibility
+
+=============================================
+
+Usage example:
+- preventing abstraction from being hard-wired to the implementation (for example, the implementation must be chosen at runtime)
+- in the future, we want to extend both implementation and abstraction with subclasses
+- in the future we want to extend both the implementation and the abstraction with the help of subclasses
+- if changes in the implementation should not be reflected in the clients of the abstraction
+ - to share one implementation between multiple objects and not show it to the client
+
+=============================================

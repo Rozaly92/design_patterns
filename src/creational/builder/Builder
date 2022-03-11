@@ -1,0 +1,19 @@
+Builder
+=============================================
+goal:
+
+define the construction of a complex object from its representation in such
+a way that we can get different representations as a result of the same construction.
+
+=============================================
+
+What is used for:
+to create different objects from the same dataset
+
+=============================================
+
+Usage example:
+- the order of creating a complex object should not depend on what parts the object consists of and how these objects are interconnected
+- the process of constructing an object should provide different representations of the object we are constructing
+
+=============================================

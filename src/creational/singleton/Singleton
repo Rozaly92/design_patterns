@@ -1,0 +1,19 @@
+Singleton
+=============================================
+
+goal:
+Ensure that the class has only one single instance and is given a global access point
+
+=============================================
+
+What is used for:
+to create a single instance of a particular class
+
+=============================================
+
+Usage example:
+- only one instance of a particular class is needed, which is available to all clients
+- a single instance must be inherited by subclassing,
+ while clients have the opportunity to work with the derived class without modifying their code.
+
+=============================================

@@ -1,0 +1,21 @@
+Abstract Factory
+=============================================
+
+goal:
+interface creation,
+to create many interconnected objects, without rigid binding to specific classes.
+
+=============================================
+
+What is used for:
+to create sets of interconnected objects
+
+=============================================
+
+Usage example:
+- the system should not depend on the method of creation, layout and presentation of the objects included in it.
+- incoming interconnected objects must be used together.
+- the system must be configured by one of the sets of objects of which it consists.
+- we need to represent a lot of objects, exposing only their interfaces but not their implementation
+
+=============================================

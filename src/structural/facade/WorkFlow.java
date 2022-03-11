@@ -5,7 +5,7 @@ public class WorkFlow {
     Job job = new Job();
     BugTracker bugTracker = new BugTracker();
 
-    public void solveProblems(){
+    public void solveProblems() {
         job.doJob();
         bugTracker.startSprint();
         developerr.doJobBeforeDeadLine(bugTracker);

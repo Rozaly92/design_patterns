@@ -1,0 +1,21 @@
+Factory
+=============================================
+
+goal:
+Creating an interface that creates an object.
+In this case, the choice of which class instance to create
+remains with
+the classes that implement this interface.
+
+=============================================
+
+What is used for:
+To delegate the creation of instances to another class.
+
+=============================================
+
+Usage example:
+- it is not known in advance which instances of which class will need to be created;
+- the class is designed in such a way that the objects it creates have the properties of a particular class
+
+=============================================

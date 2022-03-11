@@ -1,6 +1,6 @@
 package structural.decorator;
 
-public class DeveloperDecorator implements Dev{
+public class DeveloperDecorator implements Dev {
     Dev dev;
 
     public DeveloperDecorator(Dev dev) {

@@ -1,16 +1,19 @@
 package creational.builder;
 
 public abstract class WebSiteBuilder {
-WebSite webSite;
+    WebSite webSite;
 
-void createWebSite(){
-    webSite = new WebSite();
-}
-abstract void buildName();
-abstract void buildCms();
-abstract void buildPrice();
+    void createWebSite() {
+        webSite = new WebSite();
+    }
 
-WebSite getWebSite(){
-    return webSite;
-}
+    abstract void buildName();
+
+    abstract void buildCms();
+
+    abstract void buildPrice();
+
+    WebSite getWebSite() {
+        return webSite;
+    }
 }

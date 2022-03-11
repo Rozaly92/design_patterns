@@ -2,7 +2,7 @@ package creational.prototype;
 
 public class VersionControlRunner {
     public static void main(String[] args) {
-        Project master = new Project(1,"SuperProject","SourceCode sourceCode = new SourceCode();");
+        Project master = new Project(1, "SuperProject", "SourceCode sourceCode = new SourceCode();");
         System.out.println(master);
 
         System.out.println("----------------------");

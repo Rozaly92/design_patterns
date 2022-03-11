@@ -1,6 +1,6 @@
 package creational.prototype;
 
-public class Project implements Copyable{
+public class Project implements Copyable {
     private int id;
     private String projectName;
     private String sourceCode;
@@ -37,7 +37,7 @@ public class Project implements Copyable{
 
     @Override
     public Object copy() {
-        Project copy = new Project(id, projectName,sourceCode );
+        Project copy = new Project(id, projectName, sourceCode);
         return copy;
     }
 

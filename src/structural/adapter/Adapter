@@ -1,0 +1,19 @@
+Adapter
+=============================================
+
+goal:
+Converting the interface of one class to the interface of the class that the client needs
+
+=============================================
+
+What is used for:
+to allow classes whose interfaces are incompatible to work together
+=============================================
+
+Usage example:
+- the interface of the class we want to use doesn't suit our needs
+- a class is needed that must interact with classes that are unknown to it
+or not related
+- it is necessary to use several existing subclasses, but it is not practical to use the methods of these classes by creating new subclasses of them
+
+=============================================

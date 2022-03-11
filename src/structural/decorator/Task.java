@@ -5,12 +5,8 @@ public class Task {
         Dev dev = new SeniorJavaDev(new JavaD());
         System.out.println(dev.makeJob());
 
-        Dev dev2 =  new JavaTeamLead(new SeniorJavaDev(new JavaD()));
+        Dev dev2 = new JavaTeamLead(new SeniorJavaDev(new JavaD()));
         System.out.println(dev2.makeJob());
-
-
-
-
 
 
     }

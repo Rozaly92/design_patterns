@@ -20,11 +20,9 @@ public class ProjectRunner {
         developers.add(developerFactory.getDeveloperBySpecialty("c++"));
         developers.add(developerFactory.getDeveloperBySpecialty("c++"));
 
-        for(Developer4 dev : developers){
+        for (Developer4 dev : developers) {
             dev.writeCode();
         }
-
-
 
 
     }

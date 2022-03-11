@@ -8,11 +8,11 @@ public class EnterpriseWebSiteBuilder extends WebSiteBuilder {
 
     @Override
     void buildCms() {
-webSite.setCms(Cms.ALIFRESCOo);
+        webSite.setCms(Cms.ALIFRESCOO);
     }
 
     @Override
     void buildPrice() {
-webSite.setPrice(10000);
+        webSite.setPrice(10000);
     }
 }
